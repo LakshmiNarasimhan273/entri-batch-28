@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="learning html5 forms">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Event Registration Form</h1>
+    </header>
+
+    <main>
+        <form action="success.html">
+            <section>
+                <label>Enter your username</label>
+                <input type="text" placeholder="john doe" required>
+            </section>
+
+            <section>
+                <label>Enter your Email</label>
+                <input type="email" placeholder="john@mail.com" required>
+            </section>
+
+            <section>
+                <label>Enter your Mobile number</label>
+                <input type="tel" placeholder="+917010036699" required>
+            </section>
+
+            <section>
+                <label>Enter your Age</label>
+                <input type="number" placeholder="24" required>
+            </section>
+
+            <section>
+                <label>Date of Birth</label>
+                <input type="date" required>
+            </section>
+
+            <section>
+                <label>Select your event time</label>
+                <input type="time">
+            </section>
+
+            <section>
+                <label>Event Places</label>
+
+                <select required>
+                    <option value="">--</option>
+                    <option value="">Coimbatore</option>
+                    <option value="">Kochin</option>
+                    <option value="">Chennai</option>
+                </select>
+            </section>
+
+            <section>
+                <label>Enter your password</label>
+                <input type="password" placeholder="password@123" required>
+            </section>
+
+            <section>
+                <label>Confirm Password</label>
+                <input type="password" placeholder="enter the same password" required>
+            </section>
+
+            <section>
+                <label>Enter your special requirements</label>
+                <textarea rows="5" placeholder="enter your special requirements"></textarea>
+            </section>
+
+            <section>
+                <label>Select your Gender</label>
+                <input name="gender" type="radio" required>Male
+                <input name="gender" type="radio">Female
+                <input name="gender" type="radio">Others
+            </section>
+
+            <section>
+                <label>
+                    <input type="checkbox" required> Accept Terms & Conditions
+                </label>
+            </section><br>
+
+            <button type="submit">Register Event</button>
+            <button type="reset">Clear All Data</button>
+
+        </form>
+    </main>
+
+</body>
+
+</html>
