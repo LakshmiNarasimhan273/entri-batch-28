@@ -1,0 +1,19 @@
+#main-title
+{
+    color: blue;
+}
+
+#course-title
+{
+    color: green;
+}
+
+.course-highlight{
+    color: red;
+}
+
+/* nested selector */
+.course-highlight img{
+    width: 50%;
+    height: 50%;
+}
