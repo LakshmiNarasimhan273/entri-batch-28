@@ -1,0 +1,12 @@
+.click-btn{
+    padding: 8px 20px;
+    margin: 0 auto;
+}
+
+.text{
+    width: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    /* margin: 20px auto; */
+    margin: 250px 30px;
+}

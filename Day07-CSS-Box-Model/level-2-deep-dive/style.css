@@ -1,0 +1,14 @@
+.container-fsd{
+    border: 1px solid green;
+    /* margin-bottom: 20px; */
+}
+
+.container-da{
+    border: 1px solid red;
+    margin-top: 20px;
+}
+
+.course-div{
+    width: 200px;
+    padding: 10px;
+}
