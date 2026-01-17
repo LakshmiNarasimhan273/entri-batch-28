@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.img-container img {
+    width: 200px;
+    height: 200px;
+}

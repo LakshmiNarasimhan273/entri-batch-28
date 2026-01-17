@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightslategray;
+    color: white;
+    padding: 10px 30px;
+}
+
+.navbar-links{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.navbar-button{
+    background: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 15px;
+}
