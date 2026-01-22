@@ -1,0 +1,51 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightslategray;
+    color: white;
+    padding: 15px 0;
+}
+
+.navbar .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar .container .logo{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .container .nav-links{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .container .nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.content-container{
+    padding-top: 70px;
+}
+
+section{
+    padding: 60px 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-height: 500px;
+    background-color: lightslategray;
+    color: white;
+}
