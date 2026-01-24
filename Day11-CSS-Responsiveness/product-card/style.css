@@ -1,0 +1,94 @@
+body{
+    font-family: sans-serif;
+}
+
+/* Mobile First Design Pattern */
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.product-card{
+    border: 1px solid #ddd;
+    padding: 18px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.product-card img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-info h3{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price{
+    color: #5e558a;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.description{
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.button-container{
+    display: flex;
+    gap: 10px;
+    margin-top: auto;
+}
+
+.secondary{
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #5e558a;
+    background: transparent;
+    color: #5e558a;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.primary{
+    flex: 1;
+    padding: 10px;
+    background: #5e558a;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Tablet Design */
+@media (min-width: 768px){
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Laptop Design */
+@media (min-width: 1024px){
+    .container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

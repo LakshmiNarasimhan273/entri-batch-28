@@ -1,0 +1,24 @@
+body{
+    background-color: blue;
+    color: white;
+}
+
+/* Tablet Design */
+@media(min-width: 768px){
+    body{
+        background-color: green;
+    }
+    .title{
+        color: red;
+    }
+}
+
+/* Laptop Design */
+@media(min-width: 1024px){
+    body{
+        background-color: black;
+    }
+    .title{
+        color: yellow;
+    }
+}
