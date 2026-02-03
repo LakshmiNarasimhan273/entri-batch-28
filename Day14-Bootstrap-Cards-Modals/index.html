@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="bootstrap cards and modals page">
+    <title>Book your Train</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <style>
+        .train-img {
+            max-height: 300px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+        <div class="container">
+            <h4 class="navbar-brand">IRCTC</h4>
+
+            <button data-bs-toggle="collapse" data-bs-target="#navbarMenu" class="navbar-toggler"><span
+                    class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Trains</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">My Booking</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- Card Design -->
+
+    <div class="container mt-4">
+
+        <div class="card" style="width: 18rem;">
+            <img class="train-img" src="https://i.pinimg.com/1200x/93/f7/2b/93f72b5d507274327be891ad108c4172.jpg"
+                alt="">
+
+            <div class="card-body">
+                <h5 class="card-title">Kumbakonam -> Chennai Egmore</h5>
+                <p class="card-text text-primary fw-bold">236.14</p> <i class="bi bi-bookmark-fill"></i>
+                <p class="card-text text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+                    enim vero </p>
+                <button data-bs-toggle="modal" data-bs-target="#bookingModal" class="btn btn-primary">Book Now</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Modal Design starts here -->
+    <div class="modal fade" id="bookingModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- header -->
+                <div class="modal-header">
+                    <h6 class="text-muted">Booking Status</h6>
+                    <button data-bs-dismiss="modal" class="btn-close"></button>
+                </div>
+
+                <!-- body -->
+                <div class="modal-body">
+                    <p class="text-success fw-bold">Your Booking has been successfully completed</p>
+                    <!-- <img width="100" height="100" src="https://i.pinimg.com/1200x/aa/dd/82/aadd82b8bef206644dc4835035d95b07.jpg" alt=""> -->
+                     <p class="text-muted">Want to Provide More information...</p>
+                     <form>
+                        <label class="form-label" for="">Enter your Alternate Mobile number</label>
+                        <input type="text" class="form-control">
+                        <button class="btn btn-info">Submit</button>
+                     </form>
+                </div>
+
+                <!-- footer -->
+                <div class="modal-footer">
+                    <p class="text-sm text-muted">Booked on 3 Feb</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
