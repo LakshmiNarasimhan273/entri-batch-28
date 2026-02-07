@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="adventure theme park, register page">
+    <title>Adventure Park - Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        .form-border{
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Adventure Park - Home</a>
+        </div>
+    </nav>
+
+    <div style="height: 56px;"></div>
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Register for your Adventure</h2>
+        <p class="text-center mb-5">Fill out the form below to book your spot</p>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10">
+
+                <form action="success.html" class="border p-4 rounded shadow-sm">
+                    <div class="row g-3 mb-3">
+                        <div class="col-md-6">
+                            <label class="form-label" for="">Fullname</label>
+                            <input required class="form-control" type="text">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label" for="">Email</label>
+                            <input required class="form-control" type="email">
+                        </div>
+                    </div>
+
+                    <div class="row g-3 mb-3">
+
+                        <div class="col-md-6">
+                            <label class="form-label" for="">Contact Number</label>
+                            <input required class="form-control" type="tel">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label" for="">Number of Persons</label>
+                            <input required class="form-control" type="number">
+                        </div>
+
+                    </div>
+                    <div class="text-center gap-2">
+                        <button type="submit" class="btn btn-success btn-lg fw-bold">Book Adventure</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer class="bg-dark text-white py-4">
+        <div class="cotnainer text-center">
+            <p class="mb-0">Adventure Park. &copy; All rights reserved</p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
