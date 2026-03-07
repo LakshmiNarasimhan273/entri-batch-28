@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="user payment form with regex validation">
+    <title>Card Payment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="paymentForm">
+        <h2>Payment Details</h2>
+
+        <input id="username" type="text" placeholder="Enter your Username">
+        <span class="error" id="username-error"></span>
+
+        <input id="email" type="text" placeholder="Enter your Email">
+        <span class="error" id="email-error"></span>
+
+        <input id="cardnumber" type="text" placeholder="16 digit Number">
+        <span class="error" id="cardnumber-error"></span>
+
+        <input id="cvvnumber" type="text" placeholder="CVV Number">
+        <span class="error" id="cvv-error"></span>
+
+        <input id="expiry" type="text" placeholder="MM/YY">
+        <span class="error" id="expiry-error"></span>
+
+        <input id="otp" type="text" placeholder="4 Digit OTP">
+        <span class="error" id="otp-error"></span>
+
+        <button type="submit">Pay now</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
