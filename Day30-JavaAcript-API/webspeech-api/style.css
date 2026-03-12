@@ -1,0 +1,16 @@
+body{
+    padding: 20px;
+}
+
+#results{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    min-height: 50px;
+    border-radius: 5px;
+}
+
+button{
+    padding: 5px 10px;
+    cursor: pointer;
+}
