@@ -1,0 +1,3 @@
+Asynchronous
+
+JavaScript Default Nature Synchronous - It's run a single task at a time
