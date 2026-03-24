@@ -68,4 +68,13 @@ let panCard = "abefr7645f";
 let formattedPan = panCard.toUpperCase();
 console.log("upperCase()", formattedPan);
 
-// ... includes(), split() ...
+// includes()
+const shoppingcart = ['table', 'chair', 'fan'];
+const output = shoppingcart.includes('chair');
+console.log(output);
+
+// split() - backend development
+const mobileContacts = "person1, person2, person3";
+// ["person1", "person2", "person3"];
+const convertedValues = mobileContacts.split(",");
+console.log(convertedValues);
