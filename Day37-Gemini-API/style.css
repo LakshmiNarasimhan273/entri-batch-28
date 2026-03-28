@@ -1,0 +1,19 @@
+.browser-window{
+    border: 1px solid #d0d7de;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #f4f6f9;
+}
+
+.browser-toolbar{
+    background: white;
+    padding: 8px 12px;
+}
+
+#result{
+    padding: 15px;
+    min-height: 200px;
+    font-size: 1rem;
+    color: #222;
+    font-weight: bold;
+}
