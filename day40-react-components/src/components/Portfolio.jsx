@@ -1,0 +1,42 @@
+import React from 'react'
+
+import "./portfolio.css";
+
+function Portfolio() {
+  return (
+    <div>
+         <h1>Pinterest Clone</h1>
+
+    <div className="container">
+
+        <div className="item item-tall">
+            <img src="https://i.pinimg.com/1200x/58/12/a3/5812a39d7d9576f97d7511cc292dfe0f.jpg" alt="" />
+        </div>
+
+        <div className="item item-medium">
+            <img src="https://i.pinimg.com/1200x/48/67/5c/48675ca96a17a89bb0d53b40d87412e4.jpg" alt="" />
+        </div>
+
+        <div className="item item-small">
+            <img src="https://i.pinimg.com/736x/9d/64/cc/9d64cc65616efe528d124104f9bce568.jpg" alt="" />
+        </div>
+
+        <div className="item item-tall">
+            <img src="https://i.pinimg.com/1200x/9e/3f/8f/9e3f8fcfa7e5799c045728e6135729a1.jpg" alt="" />
+        </div>
+
+        <div className="item item-medium">
+            <img src="https://i.pinimg.com/1200x/01/da/c8/01dac89e0d9355fe5fa82c82dc805040.jpg" alt="" />
+        </div>
+
+        <div className="item item-small">
+            <img src="https://i.pinimg.com/1200x/bd/90/a6/bd90a6c8ea07dc7390e461b655a8b1c6.jpg" alt="" />
+        </div>
+
+
+    </div>
+    </div>
+  )
+}
+
+export default Portfolio

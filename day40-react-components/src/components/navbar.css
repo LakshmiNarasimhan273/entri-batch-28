@@ -1,0 +1,7 @@
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: aqua;
+    padding: 10px;
+}
