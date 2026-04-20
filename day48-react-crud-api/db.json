@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "Narasimhan",
+      "email": "narasimhan@mail.com",
+      "status": "Present"
+    },
+    {
+      "id": "2",
+      "username": "Narasimhan",
+      "email": "narasimhan@mail.com",
+      "status": "Present"
+    },
+    {
+      "username": "Lakshmi Narasimhan",
+      "email": "lakshminarasimhan511@gmail.com",
+      "status": "Absent",
+      "id": "CsSKJdYzT0M"
+    },
+    {
+      "username": "Developer",
+      "email": "developer@mail.com",
+      "status": "Present",
+      "id": "n0l4yHrcDOk"
+    },
+    {
+      "username": "Data Analyst",
+      "email": "dataanalyst@mail.com",
+      "status": "Absent",
+      "id": "zOUylUj367U"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
