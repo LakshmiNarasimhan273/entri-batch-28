@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "username": "Lakshmi Narasimhan",
+      "email": "lakshminarasimhan123@gmail.com",
+      "status": "Present",
+      "id": "CsSKJdYzT0M"
+    },
+    {
+      "username": "Developer",
+      "email": "developer@mail.com",
+      "status": "Present",
+      "id": "n0l4yHrcDOk"
+    },
+    {
+      "username": "Senior Tester",
+      "email": "senior.tester@mail.com",
+      "status": "Absent",
+      "id": "YZXLfCqUFNU"
+    },
+    {
+      "username": "Entri Elevate",
+      "email": "entrielevate@entri.me",
+      "status": "Present",
+      "id": "QgxPaYk2nX0"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
