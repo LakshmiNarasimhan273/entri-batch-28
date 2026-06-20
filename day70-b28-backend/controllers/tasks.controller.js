@@ -17,6 +17,12 @@ const createTask = async (req, res) => {
     try {
         const { title, description, status } = req.body;
 
+        // basic validation
+        if(!title){
+            return res.status(400).json({message: "Title is required"});
+        }
+        // description & status
+
         const task = await taskModel.create({ title, description, status });
 
         res.status(201).json(task);
@@ -28,6 +34,11 @@ const createTask = async (req, res) => {
 // PUT api
 const updateTask = async (req, res) => {
     try {
+
+        // check the id (validation)
+        // req.params.id - model using find();
+        // if(!req.params.id) return 404 task not found
+
         const updatedTask = await taskModel.findByIdAndUpdate(
             req.params.id, req.body, { new: true }
         );
@@ -40,6 +51,10 @@ const updateTask = async (req, res) => {
 // DELETE api
 const deleteTask = async (req, res) => {
     try {
+        // check the id (validation)
+        // req.params.id - model using find();
+        // if(!req.params.id) return 404 task not found
+
         await taskModel.findByIdAndDelete(req.params.id);
         res.status(200).json({ message: "Task Deleted" });
     } catch (err) {

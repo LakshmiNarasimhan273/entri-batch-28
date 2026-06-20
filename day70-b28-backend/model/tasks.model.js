@@ -22,7 +22,8 @@ const taskSchmea = new mongoose.Schema({
     status: {
         type: String,
         enum: ["not-started", "in-progress", "completed"],
-        default: "not-started"
+        default: "not-started",
+        required: true
     }
 });
 
