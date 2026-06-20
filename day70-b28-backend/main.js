@@ -2,8 +2,14 @@ const express = require("express");
 const app = express();
 require("dotenv").config();
 
-const dbConnection = require("./config/dbConnection.config");
+const dns = require("dns");
+dns.setServers(["1.1.1.1", "8.8.8.8"]);
 
+const dbConnection = require("./config/dbConnection.config");
+const taskRoutes = require("./routes/task.route");
+
+app.use(express.json());
+app.use("/tasks", taskRoutes);
 
 dbConnection();
 app.listen(process.env.port, () => {
